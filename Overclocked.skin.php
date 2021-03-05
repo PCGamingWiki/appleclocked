@@ -410,24 +410,9 @@ class OverclockedTemplate extends BaseTemplate {
 		<!-- Social links -->
 		<div class="pcgw-footer-column">
 			<div id="footer-social-links">
-				<!-- Facebook Icon -->
-				<a href="https://www.facebook.com/PCGamingWiki">
-					<div class="icon-container footer-facebook icon"></div>
-				</a>
-
 				<!-- Twitter Icon -->
-				<a href="https://www.twitter.com/PCGamingWiki">
+				<a href="https://www.twitter.com/AppleGamingWiki">
 					<div class="icon-container footer-twitter icon"></div>
-				</a>
-
-				<!-- YouTube Icon -->
-				<a href="//www.youtube.com/user/PCGamingWikiTV">
-					<div class="icon-container footer-youtube icon"></div>
-				</a>
-
-				<!-- Steam Icon -->
-				<a href="//steamcommunity.com/groups/pcgamingwiki">
-					<div class="icon-container footer-steam icon"></div>
 				</a>
 			</div>
 		</div>
@@ -437,18 +422,16 @@ class OverclockedTemplate extends BaseTemplate {
 			<div id="footer-links-container">
 				<ul>
 					<li>PCGamingWiki
-					<li><a href="//pcgamingwiki.com/wiki/PCGamingWiki:About">About us</a>
-					<li><a href="//pcgamingwiki.com/wiki/PCGamingWiki:About#Contact">Contact us</a>
-					<li><a href="//pcgamingwiki.com/wiki/PCGamingWiki:About#Advertising">Advertising</a>
-					<li><a href="//pcgamingwiki.com/wiki/PCGamingWiki:Privacy_policy">Privacy policy</a>
-					<li><a href="//pcgamingwiki.com/wiki/PCGamingWiki:General_disclaimer">General disclaimer</a>
+					<li><a href="//www.applegamingwiki.com/wiki/AppleGamingWiki:About">About us</a>
+					<li><a href="//www.applegamingwiki.com/wiki/AppleGamingWiki:About#Contact">Contact us</a>
+					<li><a href="//www.applegamingwiki.com/wiki/AppleGamingWiki:About#Advertising">Advertising</a>
+					<li><a href="//www.applegamingwiki.com/wiki/AppleGamingWiki:Privacy_policy">Privacy policy</a>
+					<li><a href="//www.applegamingwiki.com/wiki/AppleGamingWiki:General_disclaimer">General disclaimer</a>
 				</ul>
 
 				<ul>
 					<li>Friends
-					<li><a href="//pcgamingwiki.com/wiki/PCGamingWiki:Partnerships">Partnerships</a>
-					<li><a href="//pcgamingwiki.com/wiki/PCGamingWiki:Extension">Extension</a>
-					<li><a href="//pcgamingwiki.com/wiki/PCGamingWiki:API">API</a>
+					<li><a href="https://applesilicongames">Apple Silicon Games</a>
 					<li><a href="https://www.gog.com?pp=708a77db476d737e54b8bf4663fc79b346d696d2">GOG.com</a>
 					<li><a href="https://gamesplanet.com?ref=pcgwiki">Gamesplanet</a>
 					<li><a href="https://www.cheapshark.com">CheapShark</a>
@@ -460,7 +443,7 @@ class OverclockedTemplate extends BaseTemplate {
 					<li><a href="https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki">Semantic MediaWiki</a>
 					<li><a href="https://www.mediawiki.org/wiki/Extension:Cargo">Cargo</a>
 					<li><a href="https://github.com/PCGamingWiki">Open source</a>
-					<li><a href="https://www.patreon.com/PCGamingWiki">Patrons</a>
+					<li><a href="https://www.patreon.com/AppleGamingWiki">Patrons</a>
 					<li>and You &lt;3
 				</ul>
 			</div>
