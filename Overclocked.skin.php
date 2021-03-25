@@ -57,7 +57,7 @@ class SkinOverclocked extends SkinTemplate {
 		    $toggleGoogleAds = false;
 		}
 		if( $toggleGoogleAds ) {
-		    $out->addHeadItem('pcgw-admanager', '<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="5ee882ebb519801b8a4d573b" data-mode="scan" async></script>');
+		    $out->addHeadItem('pcgw-admanager', '<script src="https://hb.vntsm.com/v3/live/ad-manager.min.js" type="text/javascript" data-site-id="600990fcfe24b76bfed26169" data-mode="scan" async></script>');
 		}
 		$out->addModules( array( 'skins.overclocked.js' ) );
 	}
@@ -367,18 +367,18 @@ class OverclockedTemplate extends BaseTemplate {
 					<div id="body-content" class="mw-body mw-body-with-ads">
 					<!-- mpu ad -->
 						<div id="mpu">
-							<!-- PCGamingWiki - 300x250 Static (5ee8e351a624ae2e7125852e) - 300x250 - Place in <BODY> of page where ad should appear -->
-							<div class="vm-placement" data-id="5ee8e351a624ae2e7125852e"></div>
-							<!-- / PCGamingWiki - 300x250 Static (5ee8e351a624ae2e7125852e) -->
+							<!-- applegamingwiki - 300x250 Static (6009b20efe24b76bfed26194) - 300x250 - Place in <BODY> of page where ad should appear -->
+							<div class="vm-placement" data-id="6009b20efe24b76bfed26194"></div>
+							<!-- / applegamingwiki - 300x250 Static (6009b20efe24b76bfed26194) -->
 						</div>
 				<?php } ?>
 
 					<?php $this->html( 'bodytext' ); ?>
 
 					<?php if( $toggleGoogleAds == true ) { ?>
-						<!-- PCGamingWiki - Rich Media (5ee8e341a624ae2e7125852c) - 1x1 - Place in <BODY> of page where ad should appear -->
-						<div class="vm-placement" data-id="5ee8e341a624ae2e7125852c" style="display:none"></div>
-						<!-- / PCGamingWiki - Rich Media (5ee8e341a624ae2e7125852c) -->
+						<!-- applegamingwiki - Rich Media (6009b1faa6449b63e64215d0) - 1x1 - Place in <BODY> of page where ad should appear -->
+						<div class="vm-placement" data-id="6009b1faa6449b63e64215d0" style="display:none"></div>
+						<!-- / applegamingwiki - Rich Media (6009b1faa6449b63e64215d0) -->
 					<?php } ?>
 						
 					<?php $this->html( 'catlinks' ); ?>
@@ -389,16 +389,16 @@ class OverclockedTemplate extends BaseTemplate {
 			<?php if( $toggleGoogleAds == true ) { ?>
 				<!-- footer ad -->
 				<div class="ad-footer-container">
-					<!-- PCGamingWiki - dynamic ad unit -->
+					<!-- applegamingwiki - dynamic ad unit -->
 					<script>
 					    window.isMobile = (/android|ipad|iphone|ipod|samsung/i).test(navigator.userAgent);
 					    console.log(isMobile);
 					</script>
 					<script>
-					    var id = window.isMobile ? '5ee8e36fa624ae2e71258530' : '5ee8e359b519801b8a4d57ff';
+					    var id = window.isMobile ? '6009b22cfe24b76bfed26198' : '6009b216a6449b63e64215d2';
 					    document.write('<div class="vm-placement" data-id="' + id + '"></div>');
 					</script>
-					<!-- / PCGamingWiki - dynamic ad unit -->
+					<!-- / applegamingwiki - dynamic ad unit -->
 				</div>
 			<?php } ?>
 		</div>
@@ -423,8 +423,6 @@ class OverclockedTemplate extends BaseTemplate {
 				<ul>
 					<li>PCGamingWiki
 					<li><a href="//www.applegamingwiki.com/wiki/AppleGamingWiki:About">About us</a>
-					<li><a href="//www.applegamingwiki.com/wiki/AppleGamingWiki:About#Contact">Contact us</a>
-					<li><a href="//www.applegamingwiki.com/wiki/AppleGamingWiki:About#Advertising">Advertising</a>
 					<li><a href="//www.applegamingwiki.com/wiki/AppleGamingWiki:Privacy_policy">Privacy policy</a>
 					<li><a href="//www.applegamingwiki.com/wiki/AppleGamingWiki:General_disclaimer">General disclaimer</a>
 				</ul>
