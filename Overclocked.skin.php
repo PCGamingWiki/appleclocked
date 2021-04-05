@@ -20,7 +20,7 @@
  */
 
 class SkinOverclocked extends SkinTemplate {
-	var $skinname = 'overclocked', $stylename = 'Overclocked',
+	var $skinname = 'appleclocked', $stylename = 'Overclocked',
 		$template = 'OverclockedTemplate', $useHeadElement = true;
  
 	/**
