@@ -421,7 +421,7 @@ class OverclockedTemplate extends BaseTemplate {
 		<div class="pcgw-footer-column">
 			<div id="footer-links-container">
 				<ul>
-					<li>PCGamingWiki
+					<li>AppleGamingWiki
 					<li><a href="//www.applegamingwiki.com/wiki/AppleGamingWiki:About">About us</a>
 					<li><a href="//www.applegamingwiki.com/wiki/AppleGamingWiki:Privacy_policy">Privacy policy</a>
 					<li><a href="//www.applegamingwiki.com/wiki/AppleGamingWiki:General_disclaimer">General disclaimer</a>
