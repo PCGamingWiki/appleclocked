@@ -25,18 +25,18 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 
 $GLOBALS['wgExtensionCredits']['skin'][] = array(
 	'path'           => __FILE__,
-	'name'           => 'Overclocked',
-	'namemsg'        => 'skinname-overclocked',
-	'descriptionmsg' => 'overclocked-desc',
+	'name'           => 'Appleclocked',
+	'namemsg'        => 'skinname-appleclocked',
+	'descriptionmsg' => 'appleclocked-desc',
 	'author'         => 'PCGamingWiki Team',
-	'url'            => "https://github.com/PCGamingWiki/Overclocked",
+	'url'            => "https://github.com/PCGamingWiki/appleclocked",
 	'license-name'   => 'GPL-2.0+',
 );
 
-$GLOBALS['wgAutoloadClasses']['SkinOverclocked'] = __DIR__ . '/Overclocked.skin.php';
-$GLOBALS['wgMessagesDirs']['Overclocked'] = __DIR__ . '/i18n';
+$GLOBALS['wgAutoloadClasses']['SkinAppleclocked'] = __DIR__ . '/Appleclocked.skin.php';
+$GLOBALS['wgMessagesDirs']['Appleclocked'] = __DIR__ . '/i18n';
 
-$GLOBALS['wgValidSkinNames']['overclocked'] = 'Overclocked';
+$GLOBALS['wgValidSkinNames']['appleclocked'] = 'Appleclocked';
 
 $GLOBALS['wgHooks']['GetPreferences'][] = 'wfPrefHook';
 
@@ -58,7 +58,7 @@ function wfPrefHook( $user, &$preferences ) {
 $GLOBALS['wgDefaultUserOptions']['overclocked-ads'] = 0;
 $GLOBALS['wgDefaultUserOptions']['overclocked-floating-toc'] = 0;
 
-$GLOBALS['wgResourceModules']['skins.overclocked.styles'] = array(
+$GLOBALS['wgResourceModules']['skins.appleclocked.styles'] = array(
 	'styles' => array(
 		'resources/general-header.less',
 		'resources/general-footer.less',
@@ -81,7 +81,7 @@ $GLOBALS['wgResourceModules']['skins.overclocked.styles'] = array(
 	'localBasePath' => __DIR__,
 );
 
-$GLOBALS['wgResourceModules']['skins.overclocked.js'] = array(
+$GLOBALS['wgResourceModules']['skins.appleclocked.js'] = array(
 	'scripts' => array(
 		'resources/jquery/jquery.waypoints.min.js',
 		'resources/jquery/jquery.ba-outside-events.min.js',
@@ -91,9 +91,9 @@ $GLOBALS['wgResourceModules']['skins.overclocked.js'] = array(
 	'localBasePath' => __DIR__,
 );
 
-$GLOBALS['wgResourceModuleSkinStyles']['overclocked'] = array(
+$GLOBALS['wgResourceModuleSkinStyles']['appleclocked'] = array(
 	'mediawiki.special.preferences' => 'resources/mediawiki.special.preferences.less',
-	'remoteSkinPath' => 'overclocked',
+	'remoteSkinPath' => 'appleclocked',
 	'localBasePath' => __DIR__,
 );
 

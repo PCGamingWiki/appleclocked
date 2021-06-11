@@ -19,9 +19,9 @@
  * @ingroup Skins
  */
 
-class SkinOverclocked extends SkinTemplate {
-	var $skinname = 'appleclocked', $stylename = 'Overclocked',
-		$template = 'OverclockedTemplate', $useHeadElement = true;
+class SkinAppleclocked extends SkinTemplate {
+	var $skinname = 'appleclocked', $stylename = 'Appleclocked',
+		$template = 'AppleclockedTemplate', $useHeadElement = true;
  
 	/**
 	 * Add JavaScript via ResourceLoader
