@@ -414,6 +414,11 @@ class OverclockedTemplate extends BaseTemplate {
 				<a href="https://www.twitter.com/AppleGamingWiki">
 					<div class="icon-container footer-twitter icon"></div>
 				</a>
+				
+				<!-- Discord Icon -->
+				<a href="https://discord.gg/tzvPBSxa7W">
+					<div class="icon-container footer-discord icon"></div>
+				</a>				
 			</div>
 		</div>
 
