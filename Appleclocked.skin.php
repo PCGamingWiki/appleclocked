@@ -469,12 +469,10 @@ class OverclockedTemplate extends BaseTemplate {
 {
 	"@context": "http://schema.org",
 	"@type": "Organization",
- 	"name": "PCGamingWiki",
- 	"url": "//pcgamingwiki.com",
-	"logo": "//pcgamingwiki.com/images/d/d8/PCGamingWiki.svg",
-	"sameAs": [ "https://www.facebook.com/PCGamingWiki",
-		"https://twitter.com/PCGamingWiki",
-		"https://plus.google.com/+PCGamingWiki" ]
+ 	"name": "AppleGamingWiki",
+ 	"url": "//applegamingwiki.com",
+	"logo": "//pcgw-static.nyc3.digitaloceanspaces.com/logos/AppleGamingWiki.svg",
+	"sameAs": [ "https://www.twitter.com/AppleGamingWiki", ]
 }
 </script>
 
