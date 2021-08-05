@@ -1,9 +1,9 @@
-Overclocked
+Appleclocked
 ========
 
-Overclocked is a skin for [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki) built by the [PCGamingWiki](http://pcgamingwiki.com) development team. It supports MediaWiki v1.25 and above. Note that support for specific extensions used by PCGamingWiki are hard-coded into the skin. If you are not using these extensions, you may experience problems as a result.
+Appleclocked is a skin for [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki) built by the [PCGamingWiki](http://pcgamingwiki.com) development team. It supports MediaWiki v1.25 and above. Note that support for specific extensions used by AppleGamingWiki are hard-coded into the skin. If you are not using these extensions, you may experience problems as a result.
 
-This is a reskin of Overclocked designed specifically for [AppleGamingWiki](https://applegamingwiki.com).
+This is a reskin of [Overclocked] (https://github.com/PCGamingWiki/overclocked) designed specifically for [AppleGamingWiki](https://applegamingwiki.com).
 
 ### Notable features
 
@@ -26,8 +26,8 @@ If, for some reason, you're still supporting IE and would like to use this skin 
 
 ### File structure
 
-* `Overclocked.php`
-* `Overclocked.skin.php`
+* `Appleclocked.php`
+* `Appleclocked.skin.php`
 
 #### `resources`
 
@@ -67,4 +67,4 @@ If, for some reason, you're still supporting IE and would like to use this skin 
 
 ### License
 
-Overclocked is released under the [GNU General Public License (GPL)](http://opensource.org/licenses/GPL-2.0).
+Appleclocked is released under the [GNU General Public License (GPL)](http://opensource.org/licenses/GPL-2.0).

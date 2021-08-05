@@ -414,6 +414,11 @@ class OverclockedTemplate extends BaseTemplate {
 				<a href="https://www.twitter.com/AppleGamingWiki">
 					<div class="icon-container footer-twitter icon"></div>
 				</a>
+				
+				<!-- Discord Icon -->
+				<a href="https://discord.gg/tzvPBSxa7W">
+					<div class="icon-container footer-discord icon"></div>
+				</a>				
 			</div>
 		</div>
 
@@ -464,12 +469,10 @@ class OverclockedTemplate extends BaseTemplate {
 {
 	"@context": "http://schema.org",
 	"@type": "Organization",
- 	"name": "PCGamingWiki",
- 	"url": "//pcgamingwiki.com",
-	"logo": "//pcgamingwiki.com/images/d/d8/PCGamingWiki.svg",
-	"sameAs": [ "https://www.facebook.com/PCGamingWiki",
-		"https://twitter.com/PCGamingWiki",
-		"https://plus.google.com/+PCGamingWiki" ]
+ 	"name": "AppleGamingWiki",
+ 	"url": "//applegamingwiki.com",
+	"logo": "//pcgw-static.nyc3.digitaloceanspaces.com/logos/AppleGamingWiki.svg",
+	"sameAs": [ "https://www.twitter.com/AppleGamingWiki", ]
 }
 </script>
 
