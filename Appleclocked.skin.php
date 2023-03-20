@@ -379,6 +379,10 @@ class OverclockedTemplate extends BaseTemplate {
 						<!-- applegamingwiki - Rich Media (6009b1faa6449b63e64215d0) - 1x1 - Place in <BODY> of page where ad should appear -->
 						<div class="vm-placement" data-id="6009b1faa6449b63e64215d0" style="display:none"></div>
 						<!-- / applegamingwiki - Rich Media (6009b1faa6449b63e64215d0) -->
+						
+						<!-- Venatus video ad placement -->
+						<div class="vm-placement" id="vm-av" data-format="isvideo"></div>
+						<!-- / Venatus video ad placement -->
 					<?php } ?>
 						
 					<?php $this->html( 'catlinks' ); ?>
