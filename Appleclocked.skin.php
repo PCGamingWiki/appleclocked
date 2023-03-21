@@ -165,13 +165,13 @@ class OverclockedTemplate extends BaseTemplate {
 	<?php } ?>
 
 	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-R3D95LP260"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-EXKQLBHD4S"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
 
-	  gtag('config', 'G-R3D95LP260');
+	  gtag('config', 'G-EXKQLBHD4S');
 	</script>
 
     <!-- NEW NAV -->
