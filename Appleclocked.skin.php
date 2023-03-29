@@ -353,6 +353,15 @@ class OverclockedTemplate extends BaseTemplate {
 				<?php if ( $this->data['newtalk'] ) { ?>
 					<div class="user-message"><?php $this->html( 'newtalk' ); ?></div>
 				<?php } ?>
+				
+				<?php if( $toggleGoogleAds == true ) { ?>
+				<!-- instream video ad -->
+					<div id="instream">
+						<!-- Venatus video ad placement -->
+						<div class="vm-placement" id="vm-av" data-format="isvideo"></div>
+						<!-- / Venatus video ad placement -->
+					</div>
+				<?php } ?>
 
 				<!-- Article header -->
 				<div class="article-header">
@@ -375,12 +384,6 @@ class OverclockedTemplate extends BaseTemplate {
 					<div id="body-content" class="mw-body">
 				<?php } else { ?>
 					<div id="body-content" class="mw-body mw-body-with-ads">
-					<!-- instream video ad -->
-						<div id="instream">
-							<!-- Venatus video ad placement -->
-							<div class="vm-placement" id="vm-av" data-format="isvideo"></div>
-							<!-- / Venatus video ad placement -->
-						</div>
 					<!-- mpu ad -->
 						<div id="mpu">
 							<!-- applegamingwiki - 300x250 Static (6009b20efe24b76bfed26194) - 300x250 - Place in <BODY> of page where ad should appear -->
