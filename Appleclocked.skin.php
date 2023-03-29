@@ -375,6 +375,12 @@ class OverclockedTemplate extends BaseTemplate {
 					<div id="body-content" class="mw-body">
 				<?php } else { ?>
 					<div id="body-content" class="mw-body mw-body-with-ads">
+					<!-- instream video ad -->
+						<div id="instream">
+							<!-- Venatus video ad placement -->
+							<div class="vm-placement" id="vm-av" data-format="isvideo"></div>
+							<!-- / Venatus video ad placement -->
+						</div>
 					<!-- mpu ad -->
 						<div id="mpu">
 							<!-- applegamingwiki - 300x250 Static (6009b20efe24b76bfed26194) - 300x250 - Place in <BODY> of page where ad should appear -->
@@ -389,10 +395,6 @@ class OverclockedTemplate extends BaseTemplate {
 						<!-- applegamingwiki - Rich Media (6009b1faa6449b63e64215d0) - 1x1 - Place in <BODY> of page where ad should appear -->
 						<div class="vm-placement" data-id="6009b1faa6449b63e64215d0" style="display:none"></div>
 						<!-- / applegamingwiki - Rich Media (6009b1faa6449b63e64215d0) -->
-						
-						<!-- Venatus video ad placement -->
-						<div class="vm-placement" id="vm-av" data-format="isvideo"></div>
-						<!-- / Venatus video ad placement -->
 					<?php } ?>
 						
 					<?php $this->html( 'catlinks' ); ?>
